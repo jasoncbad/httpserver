@@ -1,7 +1,8 @@
 # httpserver.c (Multithreading edition!)
 
-### Jay Montoya
-### 1742317 | jaanmont @ucsc.edu
+A multithreaded HTTP server written in C!
+Please see `DESIGN.pdf` for the full documentation. 
+Build/Run instructions are below:
 
 #### Instructions for building "httpserver":
 * make: builds the project 
@@ -21,5 +22,5 @@ in undefined behavior due to the logging approach taken. See design doc section
 on logging for more.
 - If HTTP request tokens are not seperated by exactly one space where 
 applicable, the behavior of the server is undefined. This was not fixed since 
-the TA's said it was OK in the FAQ.
+the TA's said it was OK in the assignment FAQ.
 
